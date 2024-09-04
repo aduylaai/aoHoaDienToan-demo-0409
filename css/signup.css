@@ -1,0 +1,168 @@
+
+
+
+:root{
+    --myBTN-color:#7EC8E3;
+    --myBTN-color-hv: #050A30;
+    --header-bg-color:#010100;
+    --textlogo-color:#F6A21E;
+    --white-color:#EEEDE7;
+    --search-hover-color:#868B8E;
+    --slideshow-bg-color:#D6AD60;
+  }
+  body {
+  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--header-bg-color);
+
+  
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 1em;
+    margin: 0.5rem 1rem 1rem 2rem;
+    display: inline-block;
+    border-radius: 4rem;  /*bo tròn đường viền*/
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    outline: none;
+  }
+  input[type=text]:focus, input[type=password1]:focus {
+    outline: none;
+  }
+  input[type=text], input[type=password1] {
+    width: 100%;
+    padding: 1em;
+    margin: 0.5rem 1rem 1rem 2rem;
+    display: inline-block;
+    border-radius: 4rem;  /*bo tròn đường viền*/
+  }
+  
+  hr {
+    border: 2px solid #010100;
+    margin-bottom: 1rem;
+  }
+  .btn {
+    background-color: var(--header-bg-color);
+    color: var(--textlogo-color);
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;  /*bo tròn đường viền*/
+    cursor: pointer;
+    width: 100%;
+  }
+  .btn:hover {
+    color: var(--header-bg-color);
+  }
+  
+  h1 {
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  
+  /*-------------css đăng nhập-----------------------------------------------------------------------------------------*/
+  .shop-logo{
+    margin-left: 90%;
+  }
+  
+  .dangky {
+    background-color: var(--search-hover-color);
+    margin:1% 35% 1% 35%; 
+    border-radius: 1.2rem;
+  }
+  .checkpass{
+    margin-left: 70%;
+    margin-top: 1rem;
+  
+  }
+  
+  #tk{
+    width: 93%;
+    background-color: var(--header-bg-color);
+    border: 0.1rem solid #D6AD60 ;
+    color: var(--search-hover-color);
+    margin-left: 1rem;
+  }
+  .acc_name{
+    margin-left: 1rem;
+  }
+  
+  #password{
+    width: 93%;
+    background-color: var(--header-bg-color);
+    border: 0.1rem solid #D6AD60 ;
+    color: var(--search-hover-color);
+    margin-left: 1rem;
+  }
+  #password1{
+    width: 93%;
+    background-color: var(--header-bg-color);
+    border: 0.1rem solid #D6AD60 ;
+    color: var(--search-hover-color);
+    margin-left: 1rem;
+  }
+  .acc_pass{
+    margin-left: 1rem;
+  }
+  
+  .signup-btn{
+    background-color: var(--header-bg-color);
+    color: var(--textlogo-color);
+    padding: 1em ;
+    margin-bottom: 0.5rem;
+    border: 0.1rem solid #F6A21E;
+    border-radius: 4rem;  /*bo tròn đường viền*/
+    cursor: pointer;
+    width: 20%;
+    margin-left: 40%;
+  }
+  .signup-btn:hover{
+    color: var(--header-bg-color);
+    background-color: var(--textlogo-color);
+    border: 0.1rem solid #010100;
+  }
+  .dangnhap{
+    background-color: var(--slideshow-bg-color);
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1.2rem;
+  }
+  
+  .dangnhap_text{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: var(--search-hover-color);
+    font-weight: 800;
+  }
+  
+  .dangnhap_text a{
+    text-decoration: none;
+    padding: 0.3rem;
+    color:var(--header-bg-color) ;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  .dangnhap_text a:hover{
+    opacity: 1;
+  }
+  
+  .policy{
+    padding: 1rem;
+  }
+
+  .policy a{
+    text-decoration: underline;
+    color: var(--header-bg-color);
+
+  }

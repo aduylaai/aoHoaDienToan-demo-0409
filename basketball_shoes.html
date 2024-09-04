@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="img/icon/Gold Luxury Initial Circle Logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css"
+        integrity="sha512-4wfcoXlib1Aq0mUtsLLM74SZtmB73VHTafZAvxIp/Wk9u1PpIsrfmTvK0+yKetghCL8SHlZbMyEcV8Z21v42UQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/shoes.css">
+
+    <title>BasketBall Shoes</title>
+</head>
+<body>
+    <!-- lên đầu trang -->
+    <i class="fas fa-angle-double-up" onclick="topFunction()" id="myBtn" title="Go to top"></i>
+    <!-- start header-------------------------------------------------------------------->
+    <header class="header">
+        <div class="toolbar">
+            <div class="row ">
+                <div class="nav-toolbar">
+                    <a href="#"> <i class='fas fa-mobile-alt' style='color:#FDB750;'></i> Mobile App</a>
+                    <a href="#"><i class="fas fa-comments" style="font-size:100%; color: #FDB750;"></i>Hotline</a>
+                </div>
+                <div class="nav-toolbar">
+                    <a href="" class="giohang"> <i class='fas fa-shopping-cart'></i> Cart </a>
+                </div>
+    
+                <div class="nav-toolbar-right">
+                    <a href="login.html" target="_blank"><i class="fa fa-user-circle" style="color: #FDB750;"></i>Login</a>
+                    <a href="signup.html" target="_blank"><i class="fa fa-user-circle" style="color: #FDB750 ;"></i>Sign
+                        Up</a>
+                </div>
+                <div class="nav-toolbar-right">
+                    <form class="row-nav-header-left" action="">
+                        <!-- start seach --------------------------------------------->
+                        <div class="search-container">
+                            <input type="text" name="timkiem" placeholder="Searching for...">
+                            <button type="submit"><i class='fas fa-search'></i></button>
+                        </div>
+                        <!-- end seach------------------------------------------------------------->
+                    </form>
+                </div>
+    
+    
+            </div>
+        </div>
+        <!-- end toolbar -------------------------------------------------------------------->
+    
+    
+    
+    
+        <div class="header-left">
+    
+            <div class="nav-header-left">
+                <!-- start Logo------------------------------------------------------------------->
+                <div class="row-nav-header-left">
+    
+                    <div class="logo">
+                        <p>
+                            <a class="textlogo" href="index.html">
+                                <img class="middle" src="img/icon/Chik Vovez (2).png" width="10%">
+    
+                                <b>Chivek Basketball Shop</b>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <!-- end logo ------------------------------->
+            </div>
+        </div>
+    
+    
+    
+    
+        <div class="header-right">
+            <!-- start menu------------------------------------------------->
+            <div class="menu">
+                <div class="mainmenu">
+                    <ul>
+                        <li class=""><a href="index.html">Home</a></li>
+    
+                        <li class=""><a href="gioithieu.html">About Us</a></li>
+    
+                        <Li class=""><a href="lienhe.html">Contact</a></Li>
+    
+                        <Li class=""><a href="chitietsanpham.html">Featured</a></Li>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        </a>
+                    </ul>
+    
+                </div>
+    
+            </div>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("mynav");
+                    if (x.className === "nav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "nav";
+                    }
+                }
+            </script>
+            <!-- end menu ---------------------------------------------------->
+        </div>
+    
+    
+    </header>
+    
+    <nav class="nav">
+        <section class="slideshow">
+    
+    
+            <div class="slideshowimg">
+                <a href="#"><img class="mySlides" src="img/slideshow/Đồng hành cùng hành trình bóng rổ của bạn (1).png"
+                        style="width: 105%; margin-top: 10rem;"></a>
+                <a href="#"><img class="mySlides" src="img/icon/Black And Orange Modern Basketball Tournament Poster.png"
+                        style="width: 50%; margin-top: 3rem; margin-left: 30%;"></a>
+                <a href="#"><img class="mySlides" src="img/icon/chivek_logotab.png"
+                        style="width: 70%; margin-top: 4rem; margin-left: 15%;"></a>
+    
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+    
+            </div>
+    
+    
+            <!--start slideshow_right-->
+            <div class="slideshow_right">
+    
+                <div class="menuevent">
+                    <div class="event">
+                        <a href="#">
+                            <button class="button button1" onclick="" style="vertical-align:middle"><img class="middle"
+                                    src="img/icon/discount-code.png" width="10%">
+                                <span> Discount Codes </span>
+                            </button>
+                        </a>
+    
+                        <a href="#">
+                            <button class="button button2" onclick="" style="vertical-align:middle"><img class="middle"
+                                    src="img/icon/flash_sales.png" width="10%">
+                                <span> Flash Sales 50%</span>
+                            </button>
+                        </a>
+    
+                        <a href="#">
+                            <button class="button button3" onclick="" style="vertical-align:middle"><img class="middle"
+                                    src="img/icon/fire.png" width="10%">
+                                <span> Weekend Sales</span>
+                            </button>
+                        </a>
+    
+                        <a href="#">
+                            <button class="button button4" onclick="" style="vertical-align:middle"><img class="middle"
+                                    src="img/icon/gift.png" width="10%">
+                                <span> Gifts </span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- end slideshow_right-->
+    
+        </section>
+    </nav>
+
+    <div class="clear"></div>
+    
+    <h1 class="title"> BASKETBALL SHOES </h1>
+    <div class="product-grid-shoes">
+        <div class="product-shoes">
+            <a href="#">
+                <img src="./img/sanpham/KD_17_4tr5.png" alt="" style="width: 100%; height: 70%;">
+                <h2> KD 17 EP Sunrise</h2>
+            </a>
+            <span class="price original-price"> VND 4.750.000</span>
+            <span class="price discount-price"> VND 4.500.000</span>
+            <div class="size">
+                <buton class="pick-size"> 40 </buton>
+                <buton class="pick-size"> 41 </buton>
+                <buton class="pick-size"> 42 </buton>
+                <buton class="pick-size"> 43 </buton>
+                <buton class="pick-size"> 44 </buton>
+            </div>
+            <input type="number" class="quantity" placeholder="Quantity" min="1" value="1">
+            <button type="submit"> Add to Cart</button>
+        </div>
+        <div class="product-shoes">
+            <a href="#">
+                <img src="./img/sanpham/Giannis_Immo_3_EP_2_2tr4.png" alt="" style="width: 100%; height: 70%;">
+                <h2>Giannis Immortality 3</h2>
+            </a>
+            <span class="price original-price"> VND 2.800.000</span>
+            <span class="price discount-price"> VND 2.400.000</span>
+            <div class="size">
+                <buton class="pick-size"> 40 </buton>
+                <buton class="pick-size"> 41 </buton>
+                <buton class="pick-size"> 42 </buton>
+                <buton class="pick-size"> 43 </buton>
+                <buton class="pick-size"> 44 </buton>
+            </div>
+            <button type="submit"> Add to Cart</button>
+    
+        </div>
+        <div class="product-shoes">
+            <a href="#">
+                <img src="./img/sanpham/GT_CUT_3_5tr5.png" alt="" style="width: 100%; height: 70%;">
+                <h2>GT Cut 3 "Dreamer"</h2>
+            </a>
+            <span class="price original-price"> VND 5.500.000</span>
+            <span class="price discount-price"> VND 4.999.000</span>
+            <div class="size">
+                <buton class="pick-size"> 40 </buton>
+                <buton class="pick-size"> 41 </buton>
+                <buton class="pick-size"> 42 </buton>
+                <buton class="pick-size"> 43 </buton>
+                <buton class="pick-size"> 44 </buton>
+            </div>
+            <input type="number" class="quantity" placeholder="Quantity" min="1" value="1">
+            <button type="submit"> Add to Cart</button>
+        </div>
+        <div class="product-shoes">
+            <a href="#">
+                <img src="./img/sanpham/Lebron_NXXT_GEN_2tr.png" alt="" style="width: 100%; height: 70%;">
+                <h2>Lebron NXXT Gen</h2>
+            </a>
+            <span class="price original-price"> VND 2.000.000</span>
+            <span class="price discount-price"> VND 1.999.000</span>
+            <div class="size">
+                <buton class="pick-size"> 40 </buton>
+                <buton class="pick-size"> 41 </buton>
+                <buton class="pick-size"> 42 </buton>
+                <buton class="pick-size"> 43 </buton>
+                <buton class="pick-size"> 44 </buton>
+            </div>
+            <button type="submit"> Add to Cart</button>
+        </div>
+        <div class="product-shoes">
+            <a href="#">
+                <img src="./img/sanpham/Luka_2_PF_4tr1.jpeg" alt="" style="width: 100%; height: 70%;">
+                <h2>Luka 2 PF</h2>
+            </a>
+            <span class="price original-price"> VND 4.500.000</span>
+            <span class="price discount-price"> VND 4.100.000</span>
+            <div class="size">
+                <buton class="pick-size"> 40 </buton>
+                <buton class="pick-size"> 41 </buton>
+                <buton class="pick-size"> 42 </buton>
+                <buton class="pick-size"> 43 </buton>
+                <buton class="pick-size"> 44 </buton>
+            </div>
+            <input type="number" class="quantity" placeholder="Quantity" min="1" value="1">
+            <button type="submit"> Add to Cart</button>
+        </div>
+        <div class="product-shoes">
+            <a href="#">
+                <img src="./img/sanpham/KD16_ASW_EP_3tr5.png" alt="" style="width: 100%; height: 70%;">
+                <h2>Nike KD16 ASW EP</h2>
+            </a>
+            <span class="price original-price"> VND 3.800.000</span>
+            <span class="price discount-price"> VND 3.500.000</span>
+            <div class="size">
+                <buton class="pick-size"> 40 </buton>
+                <buton class="pick-size"> 41 </buton>
+                <buton class="pick-size"> 42 </buton>
+                <buton class="pick-size"> 43 </buton>
+                <buton class="pick-size"> 44 </buton>
+            </div>
+            <input type="number" class="quantity" placeholder="Quantity" min="1" value="1">
+            <button type="submit"> Add to Cart</button>
+        </div>
+        <div class="product-shoes">
+            <a href="#">
+                <img src="./img/sanpham/Lebron_NXXT_GEN_AMPD_EP_3tr7.jpeg" alt="" style="width: 100%; height: 70%;">
+                <h2>Lebron NXXT GEN AMPD EP</h2>
+            </a>
+            <span class="price original-price"> VND 3.900.000</span>
+            <span class="price discount-price"> VND 3.700.000</span>
+            <div class="size">
+                <buton class="pick-size"> 40 </buton>
+                <buton class="pick-size"> 41 </buton>
+                <buton class="pick-size"> 42 </buton>
+                <buton class="pick-size"> 43 </buton>
+                <buton class="pick-size"> 44 </buton>
+            </div>
+            <input type="number" class="quantity" placeholder="Quantity" min="1" value="1">
+            <button type="submit"> Add to Cart</button>
+        </div>
+        <div class="product-shoes">
+            <a href="#">
+                <img src="./img/sanpham/sabrina2.jpg" alt="" style="width: 100%; height: 70%;">
+                <h2>Sabrina 2 "Court Vision"</h2>
+            </a>
+            <span class="price original-price"> VND 3.000.000</span>
+            <span class="price discount-price"> VND 2.599.000</span>
+            <div class="size">
+                <buton class="pick-size"> 40 </buton>
+                <buton class="pick-size"> 41 </buton>
+                <buton class="pick-size"> 42 </buton>
+                <buton class="pick-size"> 43 </buton>
+                <buton class="pick-size"> 44 </buton>
+            </div>
+            <input type="number" class="quantity" placeholder="Quantity" min="1" value="1">
+            <button type="submit"> Add to Cart</button>
+        </div>
+    </div>
+
+    <div id="shopping-cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <div class="cart-btn">
+          <button id="clear-cart"> Clear Cart</button>
+          <button id="close-cart"> Close Cart </button>
+        </div>
+      </div>
+  
+  
+    <script src="./js/main.js"></script>
+    <script src="./js/slideshow.js"></script>
+    <script src="./js/app.js"></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <hr>
+    
+    
+    <footer class="footer">
+        <div class="row">
+            <div class="info">
+    
+                <ul>
+                    <li><label> CUSTOMER SERVICES </label></li>
+                    <li><a href="giohang.html">Shopping Cart</a></li>
+                    <li><a href="dangnhap.html">Login</a></li>
+                    <Li><a href="dangky.html">Sign Up</a></Li>
+                </ul>
+    
+            </div>
+    
+            <div class="info">
+                <ul>
+                    <li><label>CHIVEK BASKETBALL INFORMATION</label></li>
+                    <li><a href="gioithieu.html">About Us</a></li>
+                    <li><a href="lienhe.html">Contact</a></li>
+                    <li><a href="chitietsanpham.html">Featured</a></li>
+                </ul>
+    
+            </div>
+    
+            <div class="info">
+                <ul>
+                    <li><label>ADVERTISEMENT</label></li>
+                    <li><a href="#">Discount Codes</a></li>
+                    <li><a href="#">Flash Sales 50%</a></li>
+                    <li><a href="#">Weekend Sales</a></li>
+                    <li><a href="#">Gifts</a></li>
+                </ul>
+    
+            </div>
+    
+            <div class="info">
+                <ul>
+                    <li><label>FOLLOWING</label></li>
+    
+                    <li>
+                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+    
+            </div>
+    
+            <div class="info">
+                <ul>
+                    <li><label>LIÊN HỆ</label></li>
+    
+                    <li>
+                        <a class="fa fa-paper-plane"
+                            href="https://www.google.gg/maps/place/140+%C4%90.+L%C3%AA+Tr%E1%BB%8Dng+T%E1%BA%A5n,+T%C3%A2y+Th%E1%BA%A1nh,+T%C3%A2n+Ph%C3%BA,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.8069256,106.6262595,17z/data=!3m1!4b1!4m6!3m5!1s0x31752be27ea41e05:0xfa77697a39f13ab0!8m2!3d10.8069203!4d106.6288344!16s%2Fg%2F11g20hy5mm?entry=ttu"
+                            target="_blank"></a>
+                        <a href="https://www.google.gg/maps/place/140+%C4%90.+L%C3%AA+Tr%E1%BB%8Dng+T%E1%BA%A5n,+T%C3%A2y+Th%E1%BA%A1nh,+T%C3%A2n+Ph%C3%BA,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.8069256,106.6262595,17z/data=!3m1!4b1!4m6!3m5!1s0x31752be27ea41e05:0xfa77697a39f13ab0!8m2!3d10.8069203!4d106.6288344!16s%2Fg%2F11g20hy5mm?entry=ttu"
+                            target="_blank"> HCMC University of Industry & Trade </a>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a class="fa fa-phone-square" href=""></a>
+                        <a href="tel://02838163318"> 0283 8163 318 </a>
+                    </li>
+                    <li>
+                        <a class="fa fa-envelope" href="info@hufi.edu.vn"></a>
+                        <a href="mailto:info@hufi.edu.vn"> info@hufi.edu.vn</a>
+                    </li>
+    
+                </ul>
+            </div>
+    
+    
+        </div>
+    
+    
+        <div class="copyright">
+            &copy;
+            <script>document.write(new Date().getFullYear());</script> Bản quyền thuộc về <a href="index.html"
+                target="_blank">Chivek Basketball Store</a> | Admin <i class="fa fa-heart-o" aria-hidden="true"></i> <a
+                href="" target="_blank">Nhiêu Hồng Phúc</a>
+        </div>
+        <br>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,205 @@
+
+
+
+:root{
+  --myBTN-color:#7EC8E3;
+  --myBTN-color-hv: #050A30;
+  --header-bg-color:#010100;
+  --textlogo-color:#F6A21E;
+  --white-color:#EEEDE7;
+  --search-hover-color:#868B8E;
+  --slideshow-bg-color:#D6AD60;
+}
+body {
+
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: var(--header-bg-color);
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 1em;
+  margin: 0.5rem 1rem 1rem 2rem;
+  display: inline-block;
+  border-radius: 4rem;  /*bo tròn đường viền*/
+}
+input[type=text]:focus, input[type=password]:focus {
+  outline: none;
+}
+hr {
+  border: 2px solid #010100;
+  margin-bottom: 1rem;
+}
+.btn {
+  background-color: var(--header-bg-color);
+  color: var(--textlogo-color);
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;  /*bo tròn đường viền*/
+  cursor: pointer;
+  width: 100%;
+}
+.btn:hover {
+  color: var(--header-bg-color);
+}
+
+h1 {
+  font-size: 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+/*-------------css đăng nhập-----------------------------------------------------------------------------------------*/
+.shop-logo{
+  margin-left: 90%;
+}
+
+.dangnhap {
+  background-color: var(--search-hover-color);
+  margin: 1% 35% 1% 35%; 
+  border-radius: 1.2rem;
+}
+.fb {
+  background-color: #3B5998;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+}
+.guest {
+  background-color: var(--header-bg-color);
+  color: var(--textlogo-color)  ;
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+.guest:hover {
+  background-color: var(--textlogo-color);
+  color: var(--header-bg-color);
+  
+}
+.google {
+  background-color: #dd4b39;
+  color: white;
+  text-decoration: none;
+}
+.container-links{
+  margin-top: 1rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-column-gap: 30px;
+}
+.grid {
+  width: 100%;
+  height: 50%;
+  display: block;
+  margin-top: 2rem;
+  align-items: center;
+}
+.kengang {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 1px solid #010100;
+  width : 30%;
+  margin-top: 0.1rem;
+
+}
+.or-kengang {
+  position: fixed;
+  transform: translate(550%, -50%);
+  background-color: #010100;
+  border: 2px solid #D6AD60;
+  border-radius: 50%;/*nút or hình tròn*/
+  padding: 8px 10px;
+  margin-left: -2rem;
+  color: var(--search-hover-color);
+}
+
+.checkpass{
+  margin-left: 70%;
+  margin-top: 1rem;
+
+}
+
+#username{
+  width: 93%;
+  background-color: var(--header-bg-color);
+  border: 0.1rem solid #D6AD60 ;
+  color: var(--search-hover-color);
+  margin-left: 1rem;
+}
+.acc_name{
+  margin-left: 1rem;
+}
+
+#password{
+  width: 93%;
+  background-color: var(--header-bg-color);
+  border: 0.1rem solid #D6AD60 ;
+  color: var(--search-hover-color);
+  margin-left: 1rem;
+}
+.acc_pass{
+  margin-left: 1rem;
+}
+.forgot{
+  margin-left: 70%;
+  margin-top: 1rem;
+}
+.forgot a{
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  font-weight: 800;
+  color: #010100;
+}
+
+.login-btn{
+  background-color: var(--header-bg-color);
+  color: var(--textlogo-color);
+  padding: 1em ;
+  margin: 1rem;
+  border: 0.1rem solid #F6A21E;
+  border-radius: 4rem;  /*bo tròn đường viền*/
+  cursor: pointer;
+  width: 20%;
+  margin-left: 40%;
+}
+.login-btn:hover{
+  color: var(--header-bg-color);
+  background-color: var(--textlogo-color);
+  border: 0.1rem solid #010100;
+}
+.dang_ky{
+  background-color: var(--slideshow-bg-color);
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1.2rem;
+}
+
+.dang_ky_text{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: var(--search-hover-color);
+  font-weight: 800;
+}
+
+.dang_ky_text a{
+  text-decoration: none;
+  padding: 0.3rem;
+  color:var(--header-bg-color) ;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.dang_ky_text a:hover{
+  opacity: 1;
+}

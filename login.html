@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>Chivek - Login</title>
+    <!-- biểu tượng -->
+    <link rel="icon" type="image/png" href="./img/icon/Gold Luxury Initial Circle Logo.png">
+    <!-- các thẻ meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+    <!-- truyền file css-->
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+    <div>
+        <div>
+            <div>
+                <form id="loginForm">
+                    <img src="./img/icon/Gold Luxury Initial Circle Logo.png" alt="" width="6%" class="shop-logo">
+                    <div class="dangnhap">
+                        <h1>Login</h1>
+                        <hr>
+
+                        <label for="tk1" class="acc_name"><b>Acount Name</b></label>
+                        <input type="text" placeholder="Your Email or Phone Number..." name="tk" id="username" required>
+
+                        <label for="mk1" class="acc_pass"><b>Password</b></label>
+                        <input type="password" placeholder="Enter your Password..." name="password" id="password" required>
+                        <input type="checkbox" onclick="myFunction()" class="checkpass"> Show password
+                        <div class="kengang">
+                            <span class="or-kengang"> OR </span>
+                        </div>
+                        <div class="container-links">
+                            <div class="grid">
+                                <a href="https://www.facebook.com/" class="fb btn">
+                                    <i class="fa fa-facebook fa-fw"></i>Facebook
+                                </a>
+                            </div>
+                            <div class="grid">
+                                <a href="index.html" class="guest btn">
+                                    <i class="fa fa-user-o" aria-hidden="true"></i> Guest
+                                </a>
+                            </div>
+                            <div class="grid">
+                                <a href="https://mail.google.com/" class="google btn"><i class="fa fa-google fa-fw">
+                                </i>Google
+                                </a>
+                            </div>
+                        </div>
+
+                        <p class="forgot"> <a href="#">Forgot Password?</a></p>
+
+                        <button type="submit" class="login-btn">Login</button>
+                        <div class="dang_ky">
+                            <p class="dang_ky_text"> New Member? <a href="signup.html">Sign Up</a></p>
+                            <p class="error" id="errorID"></p>
+                        </div>
+                    </div>
+                </form>
+            </div>                
+        </div>
+    </div>
+
+    <!-- end login---------------------------------------------------->
+
+</body>
+<!--start hiện mật khẩu---------------------------------------------->
+<script>
+    function myFunction() {
+        var x = document.getElementById("password");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+    }
+</script>
+<!--end hiện mật khẩu---------------------------------------------->
+
+<!--Login đến admin dashboard-->
+<script>
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+
+        if (username === 'admin' && password === 'admin') {
+            window.location.href = './admin-site-master/index.html';
+        } 
+        else if (username === 'user1' && password === '123456')
+        {
+                window.location.href ='./user.html'
+        }
+        
+        else {
+            var errorMessage = document.getElementById('errorID');
+            errorMessage.textContent = 'Không hợp lệ';
+            errorMessage.style.display = 'block';
+        }
+    });
+</script>
+<!--end-->
+</html>

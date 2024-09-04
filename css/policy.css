@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #010100;
+    color: #F6A21E;
+    padding: 20px;
+    text-align: center;
+}
+
+section.terms {
+    padding: 20px;
+}
+
+h2 {
+    color: #010100;
+}
+
+a {
+    color: #F6A21E;
+}
+
+footer {
+    background-color: #010100;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+.copyright {
+	color:var(--search-hover-color);
+	font-size: 0.5em;
+	text-align: center;
+  margin-top: 3rem;
+
+}
+.copyright a {
+	color: white;
+	font-size: 100%;
+    text-decoration: none;
+
+}

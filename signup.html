@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>Chikvez - Sign Up</title>
+        <!-- biểu tượng -->
+        <link rel="icon" type="image/png" href="img/icon/Gold Luxury Initial Circle Logo.png">
+        <!-- các thẻ meta  -->
+        <meta charset="utf-8">
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+
+        <!-- truyền file css-->
+        <link rel="stylesheet" type="text/css" href="./css/signup.css">
+        
+    </head>
+    <body>   
+      <!-- start login-------------------------------------------------->
+      <div>
+        <div>
+          <div>
+            <form>
+              <img src="./img/icon/Gold Luxury Initial Circle Logo.png" alt="" width="6%" class="shop-logo">
+                      <div class="dangky">
+                        <h1>Sign Up</h1>
+                        <hr>
+
+                        <label for="email" class="acc_name"><b>Email</b></label>
+                        <input type="text" placeholder="Enter your Email or Phone Number..." name="email" id="tk" required>
+
+                        <label for="create_pass" class="acc_pass"><b> Create your Password </b></label>
+                        <input type="password" placeholder="Enter your Password..." name="password" id="password" required>
+                        
+                        <label for="re-enter"class="acc_pass"><b> Confirm Password </b></label>
+                        <input type="password" placeholder="Re-enter your Password..." name="password" id="password1" required>
+                        <input type="checkbox" onclick="myFunction()" class="checkpass"> Show Password
+                        <p class="policy">By registering, you agree to Chik Vovez Basketball Store's <a href="policy.html"> Terms of Service & Privacy Policy </a></p>
+
+                        <button type="submit" class="signup-btn">Sign Up</button>
+                        <div class="dangnhap">
+                          <p class="dangnhap_text"> You already had account <a href="login.html">Login</a></p>
+                        </div>
+                      </div>
+                  </form>
+                </div>
+                    
+              </div>
+        </div>                
+        <!-- end login---------------------------------------------------->
+        
+    </body>
+    <!--start hiện mật khẩu---------------------------------------------->
+    <script>
+        function myFunction() {
+          var x = document.getElementById("password");
+          if (x.type === "password") {
+            x.type = "text";
+          } else {
+            x.type = "password";
+          }
+          var x1 = document.getElementById("password1");
+          if (x1.type === "password"){
+            x1.type="text";
+          } else{
+            x1.type = "password";
+          }
+        }
+    </script>
+    <!--end hiện mật khẩu---------------------------------------------->
+</html>
